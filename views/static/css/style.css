@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 15%;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 26%;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin: 5px ;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+display: flex;
+width: 70%;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 28px 22px;
+}
+.nav-list li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    color: gray;
+    
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+.btn-sm{
+    
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+
+    
+    height: 34px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/static/img/bg.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+    
+}
+.box-main{
+    height: 96%;
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+.fsecleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.fsecright{
+    width: 50%;
+}
+.text-big{
+    font-size: 45px;
+    color: white;
+    
+}
+.text-small{
+    font-size: 24px;
+    color: white;
+    padding-left: 30px;
+}
+.fsecright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-title{
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput{
+    margin: 18px 0px;
+    padding: 7px;
+    border: 3px solid #1178e1;
+    font-size: 19px;
+    border-radius: 8px;
+    width: 100%;
+}
+.btn{
+    width: 98px;
+    height: 34px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.intro{
+    padding: 80px;
+    background-color: #dcdcdc33;
+}
+.intro-greet{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.intro-content{
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.intro-left{
+width: 50%;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.intro-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 28px;
+}
+.intro-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.intro-paras{
+    padding: 6px;
+}
+.tbig{
+    font-size: 24px;
+}
+.tsmall{
+    font-size: 16px;
+}
+.instruments{
+    display: flex;  
+    flex-direction: column;
+    background: center  url('/static/img/bg/bg.jpg');
+
+}
+.instrument-heading{
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+    margin: auto;
+display: flex;
+flex-direction: column;
+
+}
+.iheadingbig{
+    font-size: 52px;
+    margin: auto;
+    margin-top: 26px;
+}
+.iheadingsmall{
+    font-size: 26px;
+}
+.cards{
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-bottom: 115px;
+}
+
+
+.sectioni{
+    background-color: #daa52083;
+    margin: 0px auto;
+    margin-top: 32px;
+    border: 4px solid grey;
+    border-top-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    width: 268px;
+    height: 403px;
+}
+.imgi{
+    margin: auto;
+    height: 140px;
+    width: 140px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+.imagei{
+    display: flex;
+    margin: auto;
+    
+    
+}
+.contenti{
+    display: flex;
+    flex-direction: column;
+    
+}
+.headingi{
+    display: flex;
+    margin: auto;
+    font-size: 49px;
+}
+.parasi{
+    font-size: 25px;
+    padding: 4px 35px;
+}
+.pheading{
+    align-items: center;
+    width: 194px;
+    margin: auto;
+    padding: 50px;
+}
+.premises{
+    
+    background-color: #fcfedb;
+    
+    
+}
+.prepara{
+    font-size: 36px;
+}
+.pimages{
+    width: 44%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 28px;
+}
+.pimage{
+    height: 260px;
+    width: 260px;
+    background-color: rgb(95 32 218 / 44%);
+    border-radius: 8px;
+    margin: 12px auto;
+}
+.pimg{
+    height: 220px;
+    width: 220px;
+    margin: 20px 20px;
+    border: 2px solid gainsboro;
+    border-radius: 12px;
+}
+.tcontent{
+    display: flex;
+}
+.trainer{
+    width: 100%;
+    margin: auto;
+    background:  url('/static/img/bg/bg.jpg');
+
+
+}
+.trainer-heading{
+    padding: 43px;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+
+}
+.tleft{
+    width: 50%;
+}
+.theading{
+    width: 18%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.timg{
+    display: flex;
+    margin: 32px auto;
+    border-radius: 50%;
+}
+.tright{
+    width: 50%;
+}
+.tpara{
+    font-size: 34px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .navbar{
+        height: 536px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    #search{
+        width: 100%;
+        }
+        .btn-sm{
+            width: 100%;
+        }
+    .rightnav{
+        text-align: center;
+    }
+    .box-main{
+        max-width: 95%;
+    }
+    .fsecleft{
+        justify-content: center;
+    }
+    .text-small{
+        padding: 0;
+    }
+    .text-big{
+        margin: 0;
+    }
+    .intro-content{
+        flex-direction: column;
+    align-items: center;
+    }
+    .intro-right{
+        width: 64%;
+        margin-top: 34px;
+    }
+    .intro-image{
+        height: 250px;
+    width: 250px;
+    }
+    .cards{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 65px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 602px){
+    .tcontent{
+        flex-direction: column;
+    align-items: center;
+    }
+    .theading{
+        width: 30%;
+    }
+    
+}
+@media only screen and (max-width: 602px){
+    .pimages{
+        width: auto;
+    }
+    
+}

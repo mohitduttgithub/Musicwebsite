@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 15%;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 26%;
+    border: 3px solid gray;
+    border-radius: 50px;
+    margin: 5px ;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+display: flex;
+width: 70%;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 28px 22px;
+}
+.nav-list li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    color: gray;
+    
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+.btn-sm{
+    
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+
+    
+    height: 34px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/static/img/bg.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.aboutus{
+
+    margin: 140px 225px;
+}
+.heading{
+    text-align: center;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
